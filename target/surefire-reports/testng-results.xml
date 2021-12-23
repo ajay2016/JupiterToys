@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Jupiter Toys Suite" duration-ms="82563" started-at="2021-12-23T11:00:45 AEDT" finished-at="2021-12-23T11:02:07 AEDT">
+    <groups>
+    </groups>
+    <test name="ContactPage Test" duration-ms="50848" started-at="2021-12-23T11:00:45 AEDT" finished-at="2021-12-23T11:01:36 AEDT">
+      <class name="testcases.ContactPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="setUp" is-config="true" duration-ms="536" started-at="2021-12-23T11:00:45 AEDT" finished-at="2021-12-23T11:00:45 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactPage(java.util.Hashtable)[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="contactPage" duration-ms="8221" started-at="2021-12-23T11:00:45 AEDT" data-provider="data" finished-at="2021-12-23T11:00:54 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Alert Message=Thanks John, we appreciate your feedback., FirstName=John, Message=QA engineer, LastName=Smith, Runmode=Y, PhoneNumber=0299998888, Email=jhon@test.com.au, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="afterClass" is-config="true" duration-ms="754" started-at="2021-12-23T11:00:54 AEDT" finished-at="2021-12-23T11:00:54 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="contactPage(java.util.Hashtable)[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="contactPage" duration-ms="10853" started-at="2021-12-23T11:00:54 AEDT" data-provider="data" finished-at="2021-12-23T11:01:05 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Alert Message=Thanks Jack, we appreciate your feedback., FirstName=Jack, Message=QA engineer, LastName=Smith, Runmode=Y, PhoneNumber=0299998888, Email=jack@test.com.au, Browser=firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="afterClass" is-config="true" duration-ms="1050" started-at="2021-12-23T11:01:05 AEDT" finished-at="2021-12-23T11:01:06 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="contactPage(java.util.Hashtable)[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="contactPage" duration-ms="6987" started-at="2021-12-23T11:01:06 AEDT" data-provider="data" finished-at="2021-12-23T11:01:13 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Alert Message=Thanks Peter, we appreciate your feedback., FirstName=Peter, Message=QA engineer, LastName=Smith, Runmode=Y, PhoneNumber=0299998888, Email=peter@test.com.au, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="afterClass" is-config="true" duration-ms="738" started-at="2021-12-23T11:01:13 AEDT" finished-at="2021-12-23T11:01:14 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="contactPage(java.util.Hashtable)[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="contactPage" duration-ms="9685" started-at="2021-12-23T11:01:14 AEDT" data-provider="data" finished-at="2021-12-23T11:01:24 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Alert Message=Thanks Micheal, we appreciate your feedback., FirstName=Micheal, Message=QA engineer, LastName=Smith, Runmode=Y, PhoneNumber=0299998888, Email=micheal@test.com.au, Browser=firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="afterClass" is-config="true" duration-ms="993" started-at="2021-12-23T11:01:24 AEDT" finished-at="2021-12-23T11:01:25 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="contactPage(java.util.Hashtable)[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="contactPage" duration-ms="9861" started-at="2021-12-23T11:01:25 AEDT" data-provider="data" finished-at="2021-12-23T11:01:35 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Alert Message=Thanks Sandy, we appreciate your feedback., FirstName=Sandy, Message=QA engineer, LastName=Smith, Runmode=Y, PhoneNumber=0299998888, Email=sandy@test.com.au, Browser=firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.ContactPageTest@11758f2a]" name="afterClass" is-config="true" duration-ms="1085" started-at="2021-12-23T11:01:35 AEDT" finished-at="2021-12-23T11:01:36 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcases.ContactPageTest -->
+    </test> <!-- ContactPage Test -->
+    <test name="Shop Page Test" duration-ms="14139" started-at="2021-12-23T11:01:36 AEDT" finished-at="2021-12-23T11:01:50 AEDT">
+      <class name="testcases.ShopPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.ShopPageTest@13eb8acf]" name="setUp" is-config="true" duration-ms="33" started-at="2021-12-23T11:01:36 AEDT" finished-at="2021-12-23T11:01:36 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="shopPage(java.util.Hashtable)[pri:0, instance:testcases.ShopPageTest@13eb8acf]" name="shopPage" duration-ms="4036" started-at="2021-12-23T11:01:36 AEDT" data-provider="data" finished-at="2021-12-23T11:01:40 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, Item2=Fluffy Bunny, Item1=Funny Cow, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.ShopPageTest@13eb8acf]" name="afterClass" is-config="true" duration-ms="679" started-at="2021-12-23T11:01:40 AEDT" finished-at="2021-12-23T11:01:41 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="shopPage(java.util.Hashtable)[pri:0, instance:testcases.ShopPageTest@13eb8acf]" name="shopPage" duration-ms="8448" started-at="2021-12-23T11:01:41 AEDT" data-provider="data" finished-at="2021-12-23T11:01:49 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, Item2=Fluffy Bunny, Item1=Funny Cow, Browser=firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.ShopPageTest@13eb8acf]" name="afterClass" is-config="true" duration-ms="938" started-at="2021-12-23T11:01:49 AEDT" finished-at="2021-12-23T11:01:50 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcases.ShopPageTest -->
+    </test> <!-- Shop Page Test -->
+    <test name="Start Shopping Page Test" duration-ms="17150" started-at="2021-12-23T11:01:50 AEDT" finished-at="2021-12-23T11:02:07 AEDT">
+      <class name="testcases.StartShoppingPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.StartShoppingPageTest@2a70a3d8]" name="setUp" is-config="true" duration-ms="28" started-at="2021-12-23T11:01:50 AEDT" finished-at="2021-12-23T11:01:50 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startShoppingPage(java.util.Hashtable)[pri:0, instance:testcases.StartShoppingPageTest@2a70a3d8]" name="startShoppingPage" duration-ms="4738" started-at="2021-12-23T11:01:50 AEDT" data-provider="data" finished-at="2021-12-23T11:01:55 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startShoppingPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.StartShoppingPageTest@2a70a3d8]" name="afterClass" is-config="true" duration-ms="694" started-at="2021-12-23T11:01:55 AEDT" finished-at="2021-12-23T11:01:56 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="startShoppingPage(java.util.Hashtable)[pri:0, instance:testcases.StartShoppingPageTest@2a70a3d8]" name="startShoppingPage" duration-ms="10718" started-at="2021-12-23T11:01:56 AEDT" data-provider="data" finished-at="2021-12-23T11:02:06 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, Browser=firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startShoppingPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcases.StartShoppingPageTest@2a70a3d8]" name="afterClass" is-config="true" duration-ms="968" started-at="2021-12-23T11:02:06 AEDT" finished-at="2021-12-23T11:02:07 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testcases.StartShoppingPageTest -->
+    </test> <!-- Start Shopping Page Test -->
+  </suite> <!-- Jupiter Toys Suite -->
+</testng-results>

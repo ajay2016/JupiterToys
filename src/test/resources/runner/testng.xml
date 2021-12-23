@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jupiter Toys Suite">
+
+	<listeners>
+
+		<listener class-name="extentreports.TestListeners" />
+
+	</listeners>
+	<test name="ContactPage Test">
+		<classes>
+
+			<class name="testcases.ContactPageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Shop Page Test">
+		<classes>
+
+			<class name="testcases.ShopPageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Start Shopping Page Test">
+		<classes>
+
+			<class name="testcases.StartShoppingPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

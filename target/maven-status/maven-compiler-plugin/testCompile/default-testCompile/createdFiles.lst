@@ -1,0 +1,11 @@
+testcases\StartShoppingPageTest.class
+testcases\ContactPageTest.class
+pageobjects\StartShoppingPage.class
+utilities\ExcelReader.class
+extentreports\ExtentManager.class
+testcases\ShopPageTest.class
+pageobjects\ShopPage.class
+base\BaseTest.class
+utilities\DataUtil.class
+pageobjects\ContactPage.class
+extentreports\TestListeners.class

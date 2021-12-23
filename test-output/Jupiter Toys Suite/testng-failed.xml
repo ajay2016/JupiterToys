@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Jupiter Toys Suite]">
+  <listeners>
+    <listener class-name="extentreports.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="ContactPage Test(failed)">
+    <classes>
+      <class name="testcases.ContactPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="contactPage" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- testcases.ContactPageTest -->
+    </classes>
+  </test> <!-- ContactPage Test(failed) -->
+  <test thread-count="5" name="Shop Page Test(failed)">
+    <classes>
+      <class name="testcases.ShopPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+          <include name="shopPage" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- testcases.ShopPageTest -->
+    </classes>
+  </test> <!-- Shop Page Test(failed) -->
+</suite> <!-- Failed suite [Jupiter Toys Suite] -->
